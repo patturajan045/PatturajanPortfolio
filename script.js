@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 time: new Date().toLocaleString(),
             };
 
-            emailjs.send("service_fvfir5p", "template_xr6s8j4", formData)
+            emailjs.send("service_fvfir5p", "template_62k84er", formData)
                 .then(() => {
                     formToast?.show();
                     contactForm.reset();
